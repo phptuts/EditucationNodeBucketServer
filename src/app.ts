@@ -39,5 +39,4 @@ app.post('/uploads/:type/:lesson/:image_name', upload.array('images', 30), async
 
 app.listen(9001, () => {
   console.log('app now listening for requests!!!')
-})
-// AIzaSyBlGCJaCVMX9LAYQKWU89Sm8gAk7Di8aj0
+}) 
